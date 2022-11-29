@@ -11,7 +11,7 @@ public class principal {
         String st;
         String cad ="";
         while ((st = br.readLine()) != null) {
-            cad += ""+st;
+            cad += "\n"+st;
         }
         return cad;
     }
